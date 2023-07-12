@@ -17,9 +17,13 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.Dveira.TopHuB",
+      "buildNumber": "1.0.0"
     },
     "android": {
+      "package": "com.Dveira.TopHuB",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
@@ -27,6 +31,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "df0f7de9-c712-4dfb-9419-f7f3045ef3f5"
+      }
     }
   }
 }
